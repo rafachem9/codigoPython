@@ -5,7 +5,7 @@ import os #System management
 import glob #System management
 import pandas as pd #Data handling
 
-Carpeta_dir= 'H:\\Mi unidad\\Mis finanzas\\Piso Plaza Nolasco\\Facturas endesa\\'
+Carpeta_dir= #Introducir directorio de la carpeta
 os.chdir(Carpeta_dir)
 file = glob.glob("*.pdf") # We search for ".csv" files
 file.sort()
